@@ -1,0 +1,22 @@
+.wrapper {
+  margin-top: 40px;
+}
+.wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.wrapper ul li {
+  flex: 300px;
+}
+
+.content {
+  margin-top: 10px;
+}
+.content p {
+  white-space: break-spaces;
+}
+.content img {
+  float: left;
+  padding: 5px;
+}

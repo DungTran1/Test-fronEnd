@@ -1,0 +1,54 @@
+.homeWrapper {
+  position: relative;
+  min-height: 100vh;
+  font-size: 1.6rem;
+}
+.homeWrapper > div:first-child {
+  padding: 10px 50px;
+}
+.homeWrapper header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.homeWrapper header img {
+  width: 310px;
+  height: 122px;
+}
+.homeWrapper section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+.homeWrapper section > .textContent {
+  padding: 15px 0;
+  width: 70%;
+}
+.textContent > p:first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer {
+  padding: 15px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #e2e2e2;
+}
+footer p {
+  color: #3e3e3e;
+  margin-left: 30px;
+}
+@media (max-width: 768px) {
+  .homeWrapper > div:first-child {
+    padding: 10px 10px;
+  }
+  .homeWrapper section > .textContent {
+    width: 90%;
+  }
+}
